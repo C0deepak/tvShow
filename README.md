@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# About
+A TV Shows fetching website which fetches the tv shows from an API tvmaze and shows the relevant details
+
+## Some Previws
+![mobile1](https://user-images.githubusercontent.com/106076858/236396901-25afc82b-9282-463c-9cc0-472c8441afe5.PNG)
+![tab2](https://user-images.githubusercontent.com/106076858/236396914-8dc05b6a-38bf-4d04-8dfb-5252c721db5c.PNG)
+![desktop3](https://user-images.githubusercontent.com/106076858/236396919-3d3299ee-0363-4117-b144-7c542fa3ea1a.PNG)
+
 ## Available Scripts
 
 In the project directory, you can run:
