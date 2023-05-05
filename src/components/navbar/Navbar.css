@@ -1,0 +1,64 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 70px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba(3,3,3,.5);
+    z-index: 10;
+}
+
+.navLogo{
+    font-family: meb;
+    font-size: 1.5rem;
+}
+
+.navLogo span{
+    background: linear-gradient(90deg,#ff416c -6%,#ff4b2b 88.84%);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.navLink{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navSearch{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    padding: .32rem 1rem;
+}
+
+.navSearch input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: .32rem;
+    font-family: mm;
+    color: #fff;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    nav{
+        padding: 0 1rem;
+    }
+    .navLogo{
+        font-size: 1.2rem;
+    }
+    .navSearch{
+        width: 150px;
+    }
+}

@@ -1,0 +1,147 @@
+.showDetail {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.showDetail img.showImg {
+    width: 280px;
+    height: 380px;
+}
+
+.mdHeading {
+    font-family: mb;
+    font-size: 2rem;
+}
+
+.mdSummary {
+    margin: 1rem 0;
+}
+
+.mdGenre {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.mdgCard {
+    padding: .4rem 1rem;
+    background: #222;
+    border-radius: 20px;
+}
+
+.mdBook {
+    background: linear-gradient(90deg, #ff416c -6%, #ff4b2b 88.84%);
+    display: flex;
+    width: 140px;
+    justify-content: center;
+    padding: .6rem 1rem;
+    outline: none;
+    font-family: mm;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+.modalPay{
+    background: linear-gradient(90deg, #ff416c -6%, #ff4b2b 88.84%);
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    padding: .6rem 1rem;
+    outline: none;
+    font-family: mm;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+
+.showModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-y: auto;
+}
+
+.showModalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding: 1rem;
+    background: #222;
+}
+
+.closeBtn{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+form .inputField {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    padding: .32rem 1rem;
+    gap: 1rem;
+}
+
+form input {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: .32rem;
+    font-family: mm;
+    color: #fff;
+    width: 100%;
+}
+
+.mdgTime {
+    background: #000;
+    border-radius: 20px;
+    padding: .6rem;
+    font-size: .8rem;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+
+.efHeading {
+    font-family: mb;
+}
+
+.totalAmount {
+    font-family: meb;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 700px) {
+    .showDetail {
+        flex-direction: column;
+    }
+    form{
+        width: 90%;
+    }
+    .sumForm{
+        display: none;
+    }
+}
